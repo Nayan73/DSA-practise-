@@ -9,3 +9,6 @@ for i in a:
 print(n)
 for i in range(n):
     print(a[i])
+
+
+print(a[3])
