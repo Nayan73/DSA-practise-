@@ -1,3 +1,10 @@
+"""
+*
+**
+***
+"""
+
+
 class Solution:
     def pattern2(self,n):
         for i in range(1,n+1):
@@ -7,7 +14,7 @@ class Solution:
        
 
 k=Solution()
-t=4
+t=int(input("Upto "))
 k.pattern2(t)
 
 

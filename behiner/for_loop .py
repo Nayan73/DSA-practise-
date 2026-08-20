@@ -11,4 +11,4 @@ for i in range(n):
     print(a[i])
 
 
-print(a[3])
+print(a[4])
