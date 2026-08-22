@@ -1,16 +1,30 @@
+"""
+Pattern 7   
+    *    
+   ***   
+  *****  
+ ******* 
+*********
+"""
+
+
+
+
 class Solution:
-    def pattern2(self,n):
+    def pattern7(self,n):
         for i in range(1,n+1):
-            for k in range(1,n-i+1):
+            for j in range(n-i):
                 print(" ", end="")
-            for j in range(0,i):
+            for k in range(2*i-1):
                 print("*", end="")
+            for l in range(n-i):
+                print(" ", end="")
             print()
 
 k=Solution()
-#t=int(input("Upto "))
-t = 5  # Example value
-k.pattern2(t)
+t=int(input("Upto "))
+'''t = 5  # Example value'''
+k.pattern7(t)
 
 
 
@@ -21,9 +35,15 @@ for k in range 1 to n+1
 for j loop for columns 
     which will print star in according to the row number along with the empty spaces
 
+first for space 
+then for stars 
+then again spaces 
 
-
-
+[4,1,4]
+[3,3,3]
+[2,5,2]
+[1,7,1]
+[0,9,0]
 
 
 
