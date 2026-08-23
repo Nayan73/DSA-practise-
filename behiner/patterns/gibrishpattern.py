@@ -1,9 +1,7 @@
+"""#ABCDEFGH
+import string
+k=string.ascii_uppercase
+for i in (1,5):
+    print(k)
 """
-*
-**
-***
-"""
-
-n = 5
-for i in range(1, n + 1):
-    print('*' * i
+print(chr(128514))

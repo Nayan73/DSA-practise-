@@ -17,8 +17,6 @@ class Solution:
                 print(" ", end="")
             for k in range(2*i-1):
                 print("*", end="")
-            for l in range(n-i):
-                print(" ", end="")
             print()
 
 k=Solution()
@@ -45,11 +43,11 @@ then again spaces
 [1,7,1]
 [0,9,0]
 
-
-
-
-
-
-
-
 """
+
+'''
+using only one loop
+
+for i in range(1,n+1):
+    print(""*(n-1) + "*"*(2*i-1))
+'''
