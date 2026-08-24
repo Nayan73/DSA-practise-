@@ -19,6 +19,6 @@ class Solution:
 
 
 k=Solution()
-#t=int(input("Upto "))
-t = 5  # Example value'''
+t=int(input("Upto "))
+#t = 5  # Example value'''
 k.pattern12(t)
