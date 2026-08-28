@@ -3,5 +3,5 @@ l=0
 for i in a:
     if i>l:
         l=i
-        
-print("Largest number in array is:", l)
+
+print("Largest number in array is ", l)
