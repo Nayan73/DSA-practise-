@@ -9,3 +9,4 @@ if temp==rev:
     print("yes it is")
 else:
     print("no it is not")
+
